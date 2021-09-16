@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Government Post Graduate College</title>
+    <!-- ======================= Bootstrap Css file ======================= -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- ======================= Css file ======================= -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ======================= Bootstrap JS file =======================
+        <script src="js/bootstrap.js"></script>
+        <link rel="icon" href="image/logo.png" /> -->
+
+    <!-- ======================= Font Awesome file ======================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- ============== Bootstrap icon ============== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+
+            window.addEventListener('scroll', function() {
+
+                if (window.scrollY > 200) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+        // DOMContentLoaded  end
+    </script>
+
+    <style type="text/css">
+        .fixed-top {
+            top: -40px;
+            transform: translateY(40px);
+            transition: transform .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section header">
+        <div class="row">
+            <div class="socialhead">
+                <div class="row justify-content-md-between pe-3">
+                    <div class="col-12 col-sm-7 sleft p-0 clearfix">
+                        <img src="image/Government_Post_College.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-sm-5 sright text-sm-end my-sm-4 clearfix">
+                        <span> 
+                                <i class="fa fa-phone mx-2 text-1"></i>
+                                <a href="tel:05612252103" class="text-2">05612252103</a>
+                                <br class="d-none d-sm-block" /></span>
+                        <span> 
+                                <i class="fa fa-envelope mx-2 text-1"></i>
+                                <a href="mailto:principal236@gmail.com" class="text-2">principal236@gmail.com</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg me-auto bg-1 navbar-dark ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a href="index.html" class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="committe.html">Our Committes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="admission.html" class="nav-link active" aria-current="page" href="#">Admission</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="faculty.html" class="nav-link active" aria-current="page" href="#">Faculty</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="event.html" class="nav-link active" aria-current="page" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="event.html"> Nss</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Rovers / Rangers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Career Counseling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">
+                                        Departmental function</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Library</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">College magazine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Research</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">E-education</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="gallery.html" class="nav-link" aria-current="page" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="contact.html" class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- navbar-collapse.// -->
+            </div>
+            <!-- container-fluid.// -->
+        </nav>
+    </div>
+    <!-- ============== Header section end ============== -->
+    <div class="about">
+        <h4 class="py-2 text-center display-5"> Our Committees</h4>
+        <div class="committees mx-3">
+            <h4 class="py-2 text-light info px-2"> College Committees</h4>
+            <p class="px-3">महाविद्यालय के समग्र विकास के लिए विभिन्न समितियों का गठन किया जाता है और पारदर्शिता सुनिश्चित करने के लिए समिति के माध्यम से महाविद्यालय में सभी कार्य किए जाते हैं </p>
+            <div class="row justify-content-evenly">
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">Anti Ragging</li>
+                        <li class="list-group-item bg-1 text-light">RTI</li>
+                        <li class="list-group-item bg-1 text-light">Press and Social Media</li>
+                        <li class="list-group-item bg-1 text-light">Rovers-Rangers</li>
+                        <li class="list-group-item bg-1 text-light">Remedial</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">UGC</li>
+                        <li class="list-group-item bg-1 text-light">NAAC</li>
+                        <li class="list-group-item bg-1 text-light">IQAC</li>
+                        <li class="list-group-item bg-1 text-light">Purchase</li>
+                        <li class="list-group-item bg-1 text-light">Website</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">College development & Beautification</li>
+                        <li class="list-group-item bg-1 text-light">Pay fixation</li>
+                        <li class="list-group-item bg-1 text-light">Income Tax</li>
+                        <li class="list-group-item bg-1 text-light">College Magazine</li>
+                        <li class="list-group-item bg-1 text-light">RUSA</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">ICT</li>
+                        <li class="list-group-item bg-1 text-light">NSS</li>
+                        <li class="list-group-item bg-1 text-light">Employment and Career Counselling</li>
+                        <li class="list-group-item bg-1 text-light">Time Table</li>
+                        <li class="list-group-item bg-1 text-light">Eco-restoration and Green Audit</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">Student Welfare</li>
+                        <li class="list-group-item bg-1 text-light">Holiday & Academic Colander</li>
+                        <li class="list-group-item bg-1 text-light">Scholarship</li>
+                        <li class="list-group-item bg-1 text-light">Research and Research Project</li>
+                        <li class="list-group-item bg-1 text-light">Reading room and Library</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">Electric Management & Generator</li>
+                        <li class="list-group-item bg-1 text-light">Women cell</li>
+                        <li class="list-group-item bg-1 text-light">Computer Lab </li>
+                        <li class="list-group-item bg-1 text-light">E-library</li>
+                        <li class="list-group-item bg-1 text-light">Cultural</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-1 text-light">Departmental Councils</li>
+                        <li class="list-group-item bg-1 text-light">Sports</li>
+                        <li class="list-group-item bg-1 text-light">Alumni Association</li>
+                        <li class="list-group-item bg-1 text-light">Parent-Teacher Association</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============== About section end ============== -->
+    <div class="section footer bg-3 text-light">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 text-light my-3">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-8 pe-1 "><img src="image/logo.png " alt=" " class="img-fluid footer-img mx-auto "></div> -->
+                    <h4 class="py-2 text-center">About</h4>
+                    <div class="col-8 py-2">
+                        <h6 class="my-0">Government P. G. College</h6>
+                        <h6 class="my-0">Fatehabad, Agra</h6>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            इस महाविद्यालय की स्थापना का उद्देश्य मात्र औपचारिक शिक्षा ही छात्रों को देना नहीं हैं बल्कि उनमें अनुशासन आत्मविश्वास विनम्रता और सदगुणों को उत्पन्न करके एक उपयोगी नागरिक भी बनाना हैं ।
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 form my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Contact</h4>
+                    <div class="col-8 py-2">
+                        <a href="tel:0561225210 " class="text-light"><i class="fa fa-phone mx-2"></i> Phone No.
+                            05612252103</a><br />
+                        <a href="mailto:principal236@gmail.com " class="text-light"><i class="fa fa-envelope mx-2"></i>
+                            Email:
+                            principal236@gmail.<br /> 	&nbsp;	&nbsp;	&nbsp;	&nbsp; com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 link my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Important Link</h4>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="http://www.dbrau.org.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Dbrau.org.in</a></span>
+                        <br />
+                        <span><a href="https://up.gov.in/Default.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                District Official
+                            </a></span><br />
+                        <span><a href="http://rojgarsamachar.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Employment News</a></span><br />
+                        <span><a href="https://goidirectory.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Web
+                                Directory</a></span><br />
+                        <span><a href="https://scholarship.up.gov.in/index.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Scholarship UP</a></span><br />
+                    </div>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="https://rtionline.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> RTI
+                                India</a></span><br />
+                        <span><a href="https://ncte.gov.in/Website/RAJASTHAN.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> NCTE Jaipur</a></span><br />
+                        <span><a href="https://repmismoef.nic.in/Public/Home1.aspx" target="_blank"
+                                class="text-light"><i class="bi bi-caret-right-fill"></i> R & D Scheme
+                            </a></span><br />
+                        <span><a href="https://www.india.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> National
+                                Portal
+                            </a></span><br />
+                        <span><a href="http://heecontent.upsdc.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Digital
+                                Library</a></span><br />
+                        <span><a href="http://uphed.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Higher
+                                Education</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot p-3 bg-1 text-light">
+        <p class="m-0 text-center">Design and Developed by cipl.biz</p>
+    </div>
+    <!-- ============== Footer section end ============== -->
+</body>
+
+</html>

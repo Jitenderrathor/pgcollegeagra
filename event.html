@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Government Post Graduate College</title>
+    <!-- ======================= Bootstrap Css file ======================= -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- ======================= Css file ======================= -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ======================= Bootstrap JS file =======================
+        <script src="js/bootstrap.js"></script>
+        <link rel="icon" href="image/logo.png" /> -->
+
+    <!-- ======================= Font Awesome file ======================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- ============== Bootstrap icon ============== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+
+            window.addEventListener('scroll', function() {
+
+                if (window.scrollY > 200) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+        // DOMContentLoaded  end
+    </script>
+
+    <style type="text/css">
+        .fixed-top {
+            top: -40px;
+            transform: translateY(40px);
+            transition: transform .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section header">
+        <div class="row">
+            <div class="socialhead">
+                <div class="row justify-content-md-between pe-3">
+                    <div class="col-12 col-sm-7 sleft p-0 clearfix">
+                        <img src="image/Government_Post_College.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-sm-5 sright text-sm-end my-sm-4 clearfix">
+                        <span> 
+                                <i class="fa fa-phone mx-2 text-1"></i>
+                                <a href="tel:05612252103" class="text-2">05612252103</a>
+                                <br class="d-none d-sm-block" /></span>
+                        <span> 
+                                <i class="fa fa-envelope mx-2 text-1"></i>
+                                <a href="mailto:principal236@gmail.com" class="text-2">principal236@gmail.com</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg me-auto bg-1 navbar-dark ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a href="index.html" class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="committe.html">Our Committes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="admission.html" class="nav-link active" aria-current="page" href="#">Admission</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="faculty.html" class="nav-link active" aria-current="page" href="#">Faculty</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="event.html" class="nav-link active" aria-current="page" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="event.html"> Nss</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Rovers / Rangers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Career Counseling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">
+                                        Departmental function</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Library</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">College magazine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Research</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">E-education</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="gallery.html" class="nav-link" aria-current="page" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="contact.html" class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- navbar-collapse.// -->
+            </div>
+            <!-- container-fluid.// -->
+        </nav>
+    </div>
+    <!-- ============== Header section end ============== -->
+    <div class="section activitie py-3 col-12 ">
+        <h4 class="text-center py-2 ">Activities & Events</h4>
+        <div class="accordion accordion-flush" id="accordionExample">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-8 gx-0">
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/nss.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">राष्ट्रीय सेवा योजना</h5>
+                            <p class="px-2">महाविद्यालय में एक सौ स्वयं सेवक / स्वयं सेविकाएँ की एक इकाई राष्ट्रीय सेवा योजना के कार्यक्रम अधिकारी के निर्देशन में संचालित है। जिसके अंतर्गत प्रत्येक स्वयं सेवक / स्वयं सेविका के लिए 120 घंटे की सेवा कार्य करना अनिवार्य
+                                है
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">। इसमें छात्र / छात्राओं द्वारा एक दिवसीय एवं सात दिवसीय शिविरों में सहभागिता कर राष्ट्रीय महत्व के कार्य संपादित किये जाते हैँ।
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/rovers.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 text-center">
+                            <h5 class="text-center ">रोवर्स / रेंजर्स</h5>
+                            <p class="px-2">भारत स्काउट एवं गाइड संस्था द्वारा महाविद्यालय को रोवर्स क्रू एवं रेंजर्स टीम स्वीकृत हैं इसके अंतर्गत छात्र / छात्राओं का पंजीकरण होता हैं, पंजीकरण के उपरांत जिला स्काउट गाइड संस्था के योग प्रशिक्षकों द्वारा प्रशिक्षण दिलाया
+                                जाता हैं।
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"> कुशल एवं योग्य रोवर्स / रेंजर्स विभिन्न प्रशिक्षणों को प्राप्त कर राष्ट्रीय एवं अंतर्राष्ट्रीय पुरस्कार प्राप्त करते हैँ।
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/career.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">रोजगार प्रकोष्ठ </h5>
+                            <p class="px-2">
+                                प्रतिस्पर्धा के इस युग में कैरियर के प्रति जागरूक रहने के लिए यह प्रकोष्ठ छात्र / छात्राओं को रोजगार सम्बन्धी नवीनतम सूचनाएं देता है ।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/event.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">विभागीय समारोह</h5>
+                            <p class="px-2">महाविद्यालय में छात्र / छात्राओं के बौद्धिक एवं शैक्षिक विकास हेतु सभी विषयों में प्रतिवर्ष परिषदों का गठन किया जाता है जिनके द्वारा समय - समय पर छात्रों की परस्पर वाद - विवाद, निबंध, चार्ट इत्यादि विभिन्न प्रतियोगिताएँ करायी
+                                जाती हैं |
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"> I महाविद्यालय मे संपादित विभिन्न क्रिया - कलापों में स्थान पाये छात्र / छात्राओं को वार्षिक पुरस्कार वितरण समारोह में पुरस्कृत किया जाता है तथा प्रत्येक संकाय में सर्वोच्च अंक प्राप्त छात्र / छात्रा को भी पुरस्कृत
+                                            किया जाता है। प्रत्येक विभाग में ऐसे छात्र / छात्रा को भी पुरस्कृत किया जाता है जिसकी कक्षा में उपस्थिति सबसे अधिक होती है।
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/sports.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">क्रीड़ा एवं खेलकूद</h5>
+                            <p class="px-2">युवाओं के शारीरिक सौष्ठव एवं व्यक्तित्व विकास में खेल-कूद की एक विशेष भूमिका हैं। इसके साथ ही क्रीड़ा सम्बन्धी गतिविधियाँ ऊर्जावान नौजवानों को एक सही दिशा प्रदान कर उनमें अनुशासन का भाव जगाती हैं
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">इन्ही बिन्दुओ को दृष्टिगत रखते हुए तथा महाविद्यालय के छात्र / छात्राओं के समग्र विकास हेतु क्रीड़ा संबंधी समस्त सुविधाएँ महाविद्यालय में विद्यमान हैं। साथ ही एक विशाल क्रीडांगन भी उपलब्ध हैं। विद्यार्थियों में क्रीड़ा
+                                            के प्रसार हेतु एक समर्पित क्रीड़ा प्रभारी महाविद्यालय में कार्यरत हैं।
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/library.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">पुस्तकालय</h5>
+                            <p class="px-2">महाविद्यालय में एक पुस्तकालय उपलब्ध है जिसमें नियमित रूप से छात्र / छात्राओं को पुस्तकें निर्गत की जाती है। साथ ही छात्र / छात्राओं को क्षेत्रीय, राष्ट्रीय एवं वैश्विक स्तर पर हो रहे राजनीतिक, आर्थिक, तकनीकी, सामाजिक, शैक्षिक
+                                एवं सांस्कृतिक परिवर्तनों से अवगत करने हेतु एक वाचनालय भी है|
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"> जिसमें नियमित रूप से पत्र / पत्रिकाएं मंगायी जाती है। विद्यर्थियों को निर्गत पुस्तके निर्धारित दिनों के अंदर पुस्तकालय में जमा करनी होती हैं , अन्यथा प्रति पुस्तक प्रतिदिन की दर से अर्थदंड देय होता है । बुक बैंक
+                                            से निर्धन छात्र / छात्राओं को पूरे सत्र के लिए पुस्तके निर्गत की जाती है। परन्तु वार्षिक परीक्षा से पहले पुस्तकों को वापस करना अनिवार्य है।
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/press.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">
+                                महाविद्यालय पत्रिका
+                            </h5>
+                            <p class="px-2">महाविद्यालय द्वारा वार्षिक पत्रिका "पारखी" का प्रकाशन किया जाता है। जिसमें महाविद्यालय परिवार एवं विद्यार्थियों की स्वरचित रचनाएँ समसामयिक विषयों के लेख, व्याख्यान तथा महाविद्यालय के समस्त शिक्षणेत्तर गतिविधियों, कार्यकलापों
+                                का विवरण, तस्वीरों के माध्यम से मुद्रण कर प्रकाशित की जाती है।
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/research.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">
+                                अनुसंधान
+                            </h5>
+                            <p class="px-2">महाविद्यालय के प्राध्यापक सक्रिय रूप से विभिन्न प्रकार से अनुसंधान गतिविधियों को आगे बढ़ा रहे हैं। महाविद्यालय के कई शिक्षक सम्मेलनों में भाग लेने के लिए शोध पत्र प्रकाशित करने में लगे हुए हैं। कुछ प्राध्यापक शोध परियोजनाओं
+                                का पर्यवेक्षण भी कर रहे हैं।
+                                <!-- <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Read More
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>जन्तु विज्ञान विभाग की असिस्टेंट प्रोफेसर, डॉ. शिल्पी शाक्य, शोध परियोजना शीर्षक “Screening of anti-nematode potential of leaf extracts from selected plants against root-knot nematode Meloidogyne incognita:
+                                                    A green solution for plant-parasitic nematode management” की प्रमुख शोधकर्ता हैं I </li>
+                                                <li>वनस्पति विज्ञान विभाग की असिस्टेंट प्रोफेसर, डॉ. सुरेश कुमार, शोध परियोजना शीर्षक “Restore wetlands and Biodiversity threatened by water pollution overcutting exotic species and inappropriate land use practices
+                                                    along the Kali nadi” की प्रमुख शोधकर्ता हैं I</li>
+                                                <li>रिसर्च एण्ड डेवलपमेंट स्कीम 2020 के अंतर्गत होने वाले प्रकाशन :</li>
+                                            </ul>
+
+                                            Shilpy Shakya (2021) Root Knot Nematode (Meloidogyne spp.): Insights of Host Parasite Interactions. Research Journal of Agricultural Sciences: An International Journal Volume: 12 Issue: 03 [P- ISSN: 0976-167 , E- ISSN: 2249-4538]
+
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2 text-center">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 mx-auto my-md-2 ">
+                            <img src="image/e-education.png " alt=" " class="card-img-top img-fluid ">
+                        </div>
+                        <div class="col-12 col-sm-8 px-2 ">
+                            <h5 class="text-center ">
+                                ई-शिक्षा
+                            </h5>
+                            <p class="px-2">महाविद्यालय पठन-पाठन के आधुनिक तरीकों को अपनाने के लिए कटिबद्ध है। ऑडियो-वीडियो उपकरणों (ओवरहेड प्रोजेक्टर, स्लाइड प्रोजेक्टर, मल्टीमीडिया, वीसीआर, शैक्षिक सीडी, वीडियो कैसेट) का उपयोग किया जा रहा है। महाविद्यालय का उद्देश्य
+                                स्मार्ट रूम (वर्चुअल क्लासरूम) के माध्यम से शिक्षा प्रदान करना है।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============== Activitie section end ============== -->
+    <div class="section footer bg-3 text-light">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 text-light my-3">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-8 pe-1 "><img src="image/logo.png " alt=" " class="img-fluid footer-img mx-auto "></div> -->
+                    <h4 class="py-2 text-center">About</h4>
+                    <div class="col-8 py-2">
+                        <h6 class="my-0">Government P. G. College</h6>
+                        <h6 class="my-0">Fatehabad, Agra</h6>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            इस महाविद्यालय की स्थापना का उद्देश्य मात्र औपचारिक शिक्षा ही छात्रों को देना नहीं हैं बल्कि उनमें अनुशासन आत्मविश्वास विनम्रता और सदगुणों को उत्पन्न करके एक उपयोगी नागरिक भी बनाना हैं ।
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 form my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Contact</h4>
+                    <div class="col-8 py-2">
+                        <a href="tel:0561225210 " class="text-light"><i class="fa fa-phone mx-2"></i> Phone No.
+                            05612252103</a><br />
+                        <a href="mailto:principal236@gmail.com " class="text-light"><i class="fa fa-envelope mx-2"></i>
+                            Email:
+                            principal236@gmail.<br /> 	&nbsp;	&nbsp;	&nbsp;	&nbsp; com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 link my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Important Link</h4>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="http://www.dbrau.org.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Dbrau.org.in</a></span>
+                        <br />
+                        <span><a href="https://up.gov.in/Default.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                District Official
+                            </a></span><br />
+                        <span><a href="http://rojgarsamachar.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Employment News</a></span><br />
+                        <span><a href="https://goidirectory.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Web
+                                Directory</a></span><br />
+                        <span><a href="https://scholarship.up.gov.in/index.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Scholarship UP</a></span><br />
+                    </div>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="https://rtionline.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> RTI
+                                India</a></span><br />
+                        <span><a href="https://ncte.gov.in/Website/RAJASTHAN.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> NCTE Jaipur</a></span><br />
+                        <span><a href="https://repmismoef.nic.in/Public/Home1.aspx" target="_blank"
+                                class="text-light"><i class="bi bi-caret-right-fill"></i> R & D Scheme
+                            </a></span><br />
+                        <span><a href="https://www.india.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> National
+                                Portal
+                            </a></span><br />
+                        <span><a href="http://heecontent.upsdc.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Digital
+                                Library</a></span><br />
+                        <span><a href="http://uphed.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Higher
+                                Education</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot p-3 bg-1 text-light">
+        <p class="m-0 text-center">Design and Developed by cipl.biz</p>
+    </div>
+    <!-- ============== Footer section end ============== -->
+</body>
+
+</html>

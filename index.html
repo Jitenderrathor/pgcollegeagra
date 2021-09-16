@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Government Post Graduate College</title>
+    <!-- ======================= Bootstrap Css file ======================= -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- ======================= Css file ======================= -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ======================= Bootstrap JS file =======================
+    <script src="js/bootstrap.js"></script>
+    <link rel="icon" href="image/logo.png" /> -->
+
+    <!-- ======================= Font Awesome file ======================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- ============== Bootstrap icon ============== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+
+            window.addEventListener('scroll', function() {
+
+                if (window.scrollY > 200) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+        // DOMContentLoaded  end
+    </script>
+
+    <style type="text/css">
+        .fixed-top {
+            top: -40px;
+            transform: translateY(40px);
+            transition: transform .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section header">
+        <div class="row">
+            <div class="socialhead">
+                <div class="row justify-content-md-between pe-3">
+                    <div class="col-12 col-sm-7 sleft p-0 clearfix">
+                        <img src="image/Government_Post_College.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-sm-5 sright text-sm-end my-sm-4 clearfix">
+                        <span> 
+                            <i class="fa fa-phone mx-2 text-1"></i>
+                            <a href="tel:05612252103" class="text-2">05612252103</a>
+                            <br class="d-none d-sm-block" /></span>
+                        <span> 
+                            <i class="fa fa-envelope mx-2 text-1"></i>
+                            <a href="mailto:principal236@gmail.com" class="text-2">principal236@gmail.com</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg me-auto bg-1 navbar-dark ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a href="index.html" class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="committe.html">Our Committes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="admission.html" class="nav-link active" aria-current="page" href="#">Admission</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="faculty.html" class="nav-link active" aria-current="page" href="#">Faculty</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="event.html" class="nav-link active" aria-current="page" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="event.html"> Nss</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Rovers / Rangers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Career Counseling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">
+                                        Departmental function</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Library</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">College magazine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Research</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">E-education</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="gallery.html" class="nav-link" aria-current="page" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="contact.html" class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- navbar-collapse.// -->
+            </div>
+            <!-- container-fluid.// -->
+        </nav>
+    </div>
+    <!-- ============== Header section end ============== -->
+    <div class="section banner">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/s1.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="image/s2.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="image/s3.png" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- ============== Banner section end ============== -->
+    <div class="row row-cols-1 row-cols-sm-2 justify-content-evenly">
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="section about col-12 px-3 py-3">
+                    <h4 class="py-2 text-light info px-2">About College</h4>
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 py-3 py-lg-0">
+                            <!-- Button trigger modal -->
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                                <img src="image/college.jpeg" alt="" class="img-fluid" />
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="image/college.jpeg" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <p class="px-3">
+                                ऐतिहासिक परिचय- श्तमसो माँ ज्योतिर्गमय श् की शाश्वत् परिकल्पना को साकार करते हुए, शैक्षिक उन्नयन के पथ पर निरन्तर अग्रसर, सरस्वती के इस पावन मंदिर श्राजकीय महाविद्यालय, फतेहाबादश् के स्थापना की घोषणा वर्ष 2002 में तत्कालीन उ.प्र. सरकार ने की, जिससे इस
+                                पिछड़े क्षेत्र में शिक्षा का सार्व भौमिक विकास हो सके। इसके लिए आगरा-फतेहाबाद मुख्य मार्ग पर आगरा से लगभग 32 किमी. दूर सिंचाई विभाग के पाइप सेन्टर की पाँच एकड भूमि दिसम्बर 2002 में उच्च शिक्षा विभाग का हस्तान्तरित की गयी
+                            </p>
+                            <button type="button" class="btn btn-1 text-dark mx-3">
+                                <a href="about.html"> More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section principal col-12 px-3 py-3">
+                    <h4 class="py-2 text-light info px-2">Principal Desk</h4>
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 py-3 py-lg-0">
+                            <!-- Button trigger modal -->
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                                <img src="image/principal.jfif" class="img-fluid" alt=" " />
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="image/principal.jfif" class="img-fluid" alt=" " />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+
+                            <p class="px-3">
+                                शिक्षा मानव जीवन के सर्वांगीण विकास की आधारशिला है | शिक्षा ही मानव को संस्कारित करके प्रगति का मार्ग प्रशस्त करती है | “विद्या ददाति विनयम्” की अवधारणा के साथ राजकीय स्नातकोत्तर महाविद्यालय, फतेहाबाद, आगरा का प्रारम्भ सन 2004 में हुआ था ,तबसे समस्त प्राध्यापक
+                                पूर्ण निष्ठा और लगन के साथ अपने ज्ञान एवं शैक्षणिक कुशलता को आधार बनाकर वर्तमान समय की आवश्यकता के अनुरूप ज्ञान की सरिता को प्रवाहित करने में संलग्न हैं |
+                            </p>
+                            <button type="button" class="btn btn-1 text-dark mx-3">
+                                <a href="principal-desk.html"> More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 p-3">
+            <div class="row notes text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title .info">Notice Board</h4>
+                    </div>
+                    <!-- <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                    </ul> -->
+                    <!-- <div class="card-body ">
+                        <a href="# " class="card-link ">Card link</a>
+                        <a href="# " class="card-link ">Another link</a>
+                    </div> -->
+                    <div class="fs-1 mt-4 mb-2">Welcome! To</div>
+                    <div class="fs-3 mb-5">Government P.G. College Fatehabad, Agra</div>
+
+                </div>
+                <div class="col-12 p-3">
+                    <div class="row">
+                        <h4 class="py-2 text-light info px-2">Gallery</h4>
+                        <div class="col-12 col-md-6">
+                            <!-- Button trigger modal -->
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                                <img src="image/g9.jpeg" class="img-fluid" alt="" />
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="image/g9.jpeg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <!-- Button trigger modal -->
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                                <img src="image/g11.jpeg" class="img-fluid" alt="" />
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="image/g11.jpeg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 m-2">
+                            <button type="button " class="btn btn-1 text-dark mx-3">
+                                <a href="gallery.html">More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============== About section end ============== -->
+    <div class="section activitie py-3 col-12">
+        <h4 class="text-center py-2">Activities & Events</h4>
+        <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 row-cols-xl-8">
+            <div class="col p-2 hover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 mx-auto my-md-2">
+                        <img src="image/nss.png " alt=" " class="card-img-top img-fluid" />
+                    </div>
+                    <div class="col-12 px-2">
+                        <h5 class="text-center">राष्ट्रीय सेवा योजना</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2 hover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 mx-auto my-md-2">
+                        <img src="image/rovers.png " alt=" " class="card-img-top img-fluid" />
+                    </div>
+                    <div class="col-12 px-2">
+                        <h5 class="text-center">रोवर्स / रेंजर्स</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2 hover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 mx-auto my-md-2">
+                        <img src="image/career.png " alt=" " class="card-img-top img-fluid" />
+                    </div>
+                    <div class="col-12 px-2">
+                        <h5 class="text-center">रोजगार प्रकोष्ठ</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2 hover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 mx-auto my-md-2">
+                        <img src="image/event.png " alt=" " class="card-img-top img-fluid" />
+                    </div>
+                    <div class="col-12 px-2">
+                        <h5 class="text-center">विभागीय समारोह</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2 hover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 mx-auto my-md-2">
+                        <img src="image/sports.png " alt=" " class="card-img-top img-fluid" />
+                    </div>
+                    <div class="col-12 px-2">
+                        <h5 class="text-center">क्रीड़ा एवं खेलकूद</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2 hover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 mx-auto my-md-2">
+                        <img src="image/library.png " alt=" " class="card-img-top img-fluid" />
+                    </div>
+                    <div class="col-12 px-2">
+                        <h5 class="text-center">पुस्तकालय</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col p-2 ">
+                <div class="row ">
+                    <div class="col-4 col-lg-12 ">
+                        <img src="image/research.png " alt=" " class="card-img-top img-fluid ">
+                    </div>
+                    <div class="col-8 col-lg-12 px-2 ">
+                        <h5 class="text-center ">
+                            अनुसंधान
+                        </h5>
+                        <p class="card-text text-mute ">महाविद्यालय के प्राध्यापक सक्रिय रूप से विभिन्न प्रकार से अनुसंधान गतिविधियों को आगे बढ़ा रहे हैं। </p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- ============== Activities section end ============== -->
+    <div class="section footer bg-3 text-light">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 text-light my-3">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-8 pe-1 "><img src="image/logo.png " alt=" " class="img-fluid footer-img mx-auto "></div> -->
+                    <h4 class="py-2 text-center">About</h4>
+                    <div class="col-8 py-2">
+                        <h6 class="my-0">Government P. G. College</h6>
+                        <h6 class="my-0">Fatehabad, Agra</h6>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            इस महाविद्यालय की स्थापना का उद्देश्य मात्र औपचारिक शिक्षा ही छात्रों को देना नहीं हैं बल्कि उनमें अनुशासन आत्मविश्वास विनम्रता और सदगुणों को उत्पन्न करके एक उपयोगी नागरिक भी बनाना हैं ।
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 form my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Contact</h4>
+                    <div class="col-8 py-2">
+                        <a href="tel:0561225210 " class="text-light"><i class="fa fa-phone mx-2"></i> Phone No.
+                            05612252103</a><br />
+                        <a href="mailto:principal236@gmail.com " class="text-light"><i class="fa fa-envelope mx-2"></i>
+                            Email:
+                            principal236@gmail.<br /> 	&nbsp;	&nbsp;	&nbsp;	&nbsp; com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 link my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Important Link</h4>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="http://www.dbrau.org.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Dbrau.org.in</a></span>
+                        <br />
+                        <span><a href="https://up.gov.in/Default.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                District Official
+                            </a></span><br />
+                        <span><a href="http://rojgarsamachar.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Employment News</a></span><br />
+                        <span><a href="https://goidirectory.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Web
+                                Directory</a></span><br />
+                        <span><a href="https://scholarship.up.gov.in/index.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Scholarship UP</a></span><br />
+                    </div>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="https://rtionline.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> RTI
+                                India</a></span><br />
+                        <span><a href="https://ncte.gov.in/Website/RAJASTHAN.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> NCTE Jaipur</a></span><br />
+                        <span><a href="https://repmismoef.nic.in/Public/Home1.aspx" target="_blank"
+                                class="text-light"><i class="bi bi-caret-right-fill"></i> R & D Scheme
+                            </a></span><br />
+                        <span><a href="https://www.india.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> National
+                                Portal
+                            </a></span><br />
+                        <span><a href="http://heecontent.upsdc.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Digital
+                                Library</a></span><br />
+                        <span><a href="http://uphed.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Higher
+                                Education</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot p-3 bg-1 text-light">
+        <p class="m-0 text-center">Design and Developed by cipl.biz</p>
+    </div>
+    <!-- ============== Footer section end ============== -->
+</body>
+
+</html>

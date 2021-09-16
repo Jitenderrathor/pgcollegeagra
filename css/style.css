@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bg-first: #172f41;
+    --bg-second: #92210f;
+}
+
+.bg-1 {
+    background-color: var(--bg-first) !important;
+}
+
+.bg-2 {
+    background-color: var(--bg-second);
+}
+
+.text-1 {
+    color: var(--bg-first);
+}
+
+.text-2 {
+    color: var(--bg-second) !important;
+}
+
+.hover {
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+.hover:hover {
+    background-color: var(--bg-first);
+    color: white !important;
+    transform: scale(1.1, 1.1);
+}
+
+.btn-1 {
+    transition: all 0.5s;
+    border-radius: 20px;
+    border: 1px solid var(--bg-first);
+}
+
+.btn-1:hover {
+    background-color: var(--bg-first);
+    color: white !important;
+}
+
+
+/* ============== Font Declaration ============== */
+
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url(../Font/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(../Font/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(../Font/OpenSans-Bold.ttf);
+}
+
+h1 {
+    font-family: "OpenSans-Bold" !important;
+}
+
+h2 {
+    font-family: "OpenSans-Bold" !important;
+}
+
+h3 {
+    font-family: "OpenSans-Regular" !important;
+}
+
+h4 {
+    font-family: "OpenSans-Bold" !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* ======================= Header section start ======================= */
+
+.header {
+    background-color: rgb(243, 242, 242);
+}
+
+.header .socialhead .sleft {
+    text-align: left;
+}
+
+@media screen and (min-width:992px) {
+    .header .socialhead .sleft img {
+        width: 70%;
+    }
+}
+
+.header .socialhead .sleft .heading {
+    margin-top: 8.5px;
+}
+
+.header .socialhead .sright {
+    text-align: right;
+}
+
+.nav-link {
+    color: white !important;
+    transition: all.5s;
+}
+
+
+/* ======================= About section start ======================= */
+
+.info {
+    background-image: linear-gradient( to right, #172f41 40%, white 90%) !important;
+}
+
+.info {
+    background-image: linear-gradient( to right, #172f41 40%, white 90%) !important;
+}
+
+
+/* ======================= Footer section start ======================= */
+
+.footer {
+    background-color: var(--bg-first);
+}
+
+.foot {
+    border-top: solid 2px var(--bg-second);
+}
+
+
+/* ======================= All Pages Css start From Here ======================= */
+
+
+/* ======================= About Page start ======================= */
+
+
+/* ======================= Admission Page start ======================= */
+
+
+/* ======================= Faculty Page start ======================= */
+
+
+/* ======================= Support Page start ======================= */
+
+
+/* ======================= Event Page start ======================= */
+
+
+/* ======================= Contact  Page start ======================= */

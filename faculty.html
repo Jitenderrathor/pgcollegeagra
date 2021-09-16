@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Government Post Graduate College</title>
+    <!-- ======================= Bootstrap Css file ======================= -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- ======================= Css file ======================= -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ======================= Bootstrap JS file =======================
+        <script src="js/bootstrap.js"></script>
+        <link rel="icon" href="image/logo.png" /> -->
+
+    <!-- ======================= Font Awesome file ======================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- ============== Bootstrap icon ============== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+
+            window.addEventListener('scroll', function() {
+
+                if (window.scrollY > 200) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+        // DOMContentLoaded  end
+    </script>
+
+    <style type="text/css">
+        .fixed-top {
+            top: -40px;
+            transform: translateY(40px);
+            transition: transform .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section header">
+        <div class="row">
+            <div class="socialhead">
+                <div class="row justify-content-md-between pe-3">
+                    <div class="col-12 col-sm-7 sleft p-0 clearfix">
+                        <img src="image/Government_Post_College.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-sm-5 sright text-sm-end my-sm-4 clearfix">
+                        <span> 
+                                <i class="fa fa-phone mx-2 text-1"></i>
+                                <a href="tel:05612252103" class="text-2">05612252103</a>
+                                <br class="d-none d-sm-block" /></span>
+                        <span> 
+                                <i class="fa fa-envelope mx-2 text-1"></i>
+                                <a href="mailto:principal236@gmail.com" class="text-2">principal236@gmail.com</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg me-auto bg-1 navbar-dark ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a href="index.html" class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="committe.html">Our Committes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="admission.html" class="nav-link active" aria-current="page" href="#">Admission</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="faculty.html" class="nav-link active" aria-current="page" href="#">Faculty</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="event.html" class="nav-link active" aria-current="page" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="event.html"> Nss</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Rovers / Rangers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Career Counseling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">
+                                        Departmental function</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Library</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">College magazine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">Research</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="event.html">E-education</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="gallery.html" class="nav-link" aria-current="page" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="contact.html" class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- navbar-collapse.// -->
+            </div>
+            <!-- container-fluid.// -->
+        </nav>
+    </div>
+    <!-- ============== Header section end ============== -->
+    <h4 class="py-2 text-center display-5">Faculty</h4>
+    <div class="row row-cols-1 row-cols-sm-2">
+        <div class="col">
+            <div class="row">
+                <div class="section about col-12 px-3 py-3">
+                    <h4 class="py-2 text-light info px-2">Faculty of Art</h4>
+                    <div class="row justify-content-evenly">
+                        <div class="col-10">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+
+                                        <th scope="col" colspan="4" class="text-center">स्नातक स्तर विषय </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>हिन्दी</td>
+                                        <td>अंग्रेजी</td>
+                                        <td>संस्कृत</td>
+                                        <td>समाज शास्त्र </td>
+                                    </tr>
+                                    <tr>
+                                        <td>राजनीति विज्ञान </td>
+                                        <td>अर्थशास्त्र</td>
+                                        <td>इतिहास </td>
+                                        <td>शारीरिक शिक्षा </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="3" class="text-center">स्नातकोत्तर स्तर विषय </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="text-center">
+                                        <td>हिन्दी</td>
+                                        <td>राजनीति विज्ञान</td>
+                                        <td>समाज शास्त्र</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="section principal col-12 px-3 py-3">
+                    <h4 class="py-2 text-light info px-2"> Faculty of Science</h4>
+                    <div class=" row justify-content-center ">
+                        <div class="col-10 ">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="3" class="text-center">स्नातक स्तर विषय </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>गणित</td>
+                                        <td>भौतिक विज्ञान </td>
+                                        <td>रसायन विज्ञान</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>वनस्पति विज्ञान </td>
+                                        <td colspan="2">प्राणि/ जन्तु विज्ञान</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-3 py-3 ">
+                    <div class="row ">
+                        <h4 class="py-2 text-light info px-2 ">Towards E-education</h4>
+                        <div class="col">
+                            <ul>
+                                <li>महाविद्यालय पठन-पाठन के आधुनिक तरीकों को अपनाने के लिए कटिबद्ध है।</li>
+                                <li>ऑडियो-वीडियो उपकरणों (ओवरहेड प्रोजेक्टर, स्लाइड प्रोजेक्टर, मल्टीमीडिया, वीसीआर, शैक्षिक सीडी, वीडियो कैसेट) का उपयोग किया जा रहा है।</li>
+                                <li>महाविद्यालय का उद्देश्य स्मार्ट रूम (वर्चुअल क्लासरूम) के माध्यम से शिक्षा प्रदान करना है।</li>
+                                <li>मुख्य परिसर में कई जगहों पर सीसीटीवी कैमरे लगे हुए हैं।</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col overflow-scroll">
+            <h4 class="py-2 text-light info px-2 mx-3">Faculty Member</h4>
+            <table class="table caption-top table-hover">
+                <caption>
+                    <h4>Art Faculty Memder</h4>
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">DEPARTMENT</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">DISIGNATION</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Political Science</td>
+                        <td>Dr. Satyapriya Bansal</td>
+                        <td>Associate Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Sociology</td>
+                        <td>Dr. Aruna Tripathi</td>
+                        <td>Associate Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Political Science</td>
+                        <td>Dr. Rajkumar singh</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Political Science</td>
+                        <td>Mr. Prabhat Kumar Ojha</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Sociology</td>
+                        <td>Mrs. Dhanbanti Chanchal</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Sociology</td>
+                        <td>Mr. Naveen Kumar</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Hindi</td>
+                        <td>Dr. Abha Lata Chaudhari</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Sanskrit</td>
+                        <td> Mrs. Asha Singh</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>English</td>
+                        <td>Dr. Priyanka</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>History</td>
+                        <td>Dr. Vandana Sharma</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>Economics</td>
+                        <td>Mr. Brijendra Kumar</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>Physical Education</td>
+                        <td>Mr. Alok Katara</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table caption-top table-hover">
+                <caption>
+                    <h4>Science Faculty Memder</h4>
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">DEPARTMENT</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">DISIGNATION</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Chemistry</td>
+                        <td>Dr. K.K. Bhardwaj</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Zoology</td>
+                        <td>Dr. Shilpy Shakya</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Physics</td>
+                        <td>Dr. Dinesh Kumar Rajput</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Botany</td>
+                        <td>Dr. Suresh Kumar</td>
+                        <td>Assistant Professor</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table caption-top table-hover">
+                <caption>
+                    <h4>Library</h4>
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">DEPARTMENT</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">DISIGNATION</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Library Science</td>
+                        <td>Mr. Tejendra Singh Yadav</td>
+                        <td>librarian</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- ============== About section end ============== -->
+    <div class="section footer bg-3 text-light">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 text-light my-3">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-8 pe-1 "><img src="image/logo.png " alt=" " class="img-fluid footer-img mx-auto "></div> -->
+                    <h4 class="py-2 text-center">About</h4>
+                    <div class="col-8 py-2">
+                        <h6 class="my-0">Government P. G. College</h6>
+                        <h6 class="my-0">Fatehabad, Agra</h6>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            इस महाविद्यालय की स्थापना का उद्देश्य मात्र औपचारिक शिक्षा ही छात्रों को देना नहीं हैं बल्कि उनमें अनुशासन आत्मविश्वास विनम्रता और सदगुणों को उत्पन्न करके एक उपयोगी नागरिक भी बनाना हैं ।
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 form my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Contact</h4>
+                    <div class="col-8 py-2">
+                        <a href="tel:0561225210 " class="text-light"><i class="fa fa-phone mx-2"></i> Phone No.
+                            05612252103</a><br />
+                        <a href="mailto:principal236@gmail.com " class="text-light"><i class="fa fa-envelope mx-2"></i>
+                            Email:
+                            principal236@gmail.<br /> 	&nbsp;	&nbsp;	&nbsp;	&nbsp; com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 link my-3">
+                <div class="row justify-content-center">
+                    <h4 class="py-2 text-center">Important Link</h4>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="http://www.dbrau.org.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Dbrau.org.in</a></span>
+                        <br />
+                        <span><a href="https://up.gov.in/Default.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                District Official
+                            </a></span><br />
+                        <span><a href="http://rojgarsamachar.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Employment News</a></span><br />
+                        <span><a href="https://goidirectory.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Web
+                                Directory</a></span><br />
+                        <span><a href="https://scholarship.up.gov.in/index.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Scholarship UP</a></span><br />
+                    </div>
+                    <div class="col-8 col-sm-5">
+                        <span><a href="https://rtionline.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> RTI
+                                India</a></span><br />
+                        <span><a href="https://ncte.gov.in/Website/RAJASTHAN.aspx" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> NCTE Jaipur</a></span><br />
+                        <span><a href="https://repmismoef.nic.in/Public/Home1.aspx" target="_blank"
+                                class="text-light"><i class="bi bi-caret-right-fill"></i> R & D Scheme
+                            </a></span><br />
+                        <span><a href="https://www.india.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> National
+                                Portal
+                            </a></span><br />
+                        <span><a href="http://heecontent.upsdc.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i>
+                                Digital
+                                Library</a></span><br />
+                        <span><a href="http://uphed.gov.in/" target="_blank" class="text-light"><i
+                                    class="bi bi-caret-right-fill"></i> Higher
+                                Education</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot p-3 bg-1 text-light">
+        <p class="m-0 text-center">Design and Developed by cipl.biz</p>
+    </div>
+    <!-- ============== Footer section end ============== -->
+</body>
+
+</html>
